@@ -4,6 +4,7 @@
     <title>Objetivo</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script type="text/javascript" src="javascript/script.js"></script>
   </head>
   <body>
 
@@ -12,17 +13,20 @@
         <div class="logo"><img src="images/logo-branco.png"></div>
           
           <div class="menu-info">
-            <button class="btn-menu">MENU</button>
-            <div class="menu">
-              <ul>
-                <li><a href="">Curso Objetivo</a></li>
-                <li><a href="">Ensino</a></li>
-                <li><a href="">Supor ao Ensino</a></li>
-                <li><a href="">Eventos</a></li>
-                <li><a href="">Concursos</a></li>
-                <li><a href="">Vestibular</a></li>
-                <li><a href="">Nossos Sites</a></li>
-              </ul>
+            <button id="btn-menu">MENU</button>
+            <div id="menu" class="menu">
+              <div class="menu-pad">
+                  <div class="logo"><img src="images/logo-azul.png"></div>
+                <ul>
+                  <li><a href="">Curso Objetivo</a></li>
+                  <li><a href="">Ensino</a></li>
+                  <li><a href="">Supor ao Ensino</a></li>
+                  <li><a href="">Eventos</a></li>
+                  <li><a href="">Concursos</a></li>
+                  <li><a href="">Vestibular</a></li>
+                  <li><a href="">Nossos Sites</a></li>
+                </ul>
+              </div>
             </div>
             <div><p>Informações <br>0800 77 00 189</p></div>
           </div>
@@ -56,54 +60,64 @@
         </div>
       </aside>
 
-      <section>
-        <div class="noticias">
+      <section class="noticias">
           <div>
             <img src="images/noticias/imagem_01.jpg" alt="">
-            <a href="">Atualidades Online</a>
-            <p>Confira as aulas disponíveis e
-            saiba mais sobre o atualidades
-            online.</p>
+            <div>
+              <a href="">Atualidades Online</a>
+              <p>Confira as aulas disponíveis e
+              saiba mais sobre o atualidades
+              online.</p>
+            </div>
           </div>
-          <div>
+          <div class="dif">
             <img src="images/noticias/imagem_02.gif" alt="">
-            <a href="">Revista Escola Total</a>
-            <p>Confira a Revista Escola Total
-            do Curso Objetivo.</p>
-          </div>
+            <div>
+              <a href="">Revista Escola Total</a>
+              <p>Confira a Revista Escola Total
+              do Curso Objetivo.</p>
+            </div>
+            </div>
           <div>
             <img src="images/noticias/imagem_03.gif" alt="">
-            <a href="">Concurso de Bolsas
-            Extensivo 2017 - Manhã</a>
-            <p>05 de janeiro de 2016
-            Inscrições Abertas!</p>
+            <div>
+              <a href="">Concurso de Bolsas
+              Extensivo 2017 - Manhã</a>
+              <p>05 de janeiro de 2016
+              Inscrições Abertas!</p>
+            </div>
           </div>
-          <div>
+          <div class="dif">
             <img src="images/noticias/imagem_04.jpg" alt="">
-            <a href="">Concurso de Bolsas ITA</a>
-            <p>23 de dezembro de 2016
-            Inscrições Abertas!</p>
-          </div>
+            <div>
+              <a href="">Concurso de Bolsas ITA</a>
+              <p>23 de dezembro de 2016
+              Inscrições Abertas!</p>
+            </div>
+            </div>
           <div>
             <img src="images/noticias/imagem_05.gif" alt="">
-            <a href="">Concurso de Bolsas
-            Medicina - Turmas 2017</a>
-            <p>23 de dezembro de 2016
-            Inscrições Abertas!</p>
+            <div>
+              <a href="">Concurso de Bolsas
+              Medicina - Turmas 2017</a>
+              <p>23 de dezembro de 2016
+              Inscrições Abertas!</p>
+            </div>
           </div>
-          <div>
+          <div class="dif">
             <img src="images/noticias/imagem_06.jpg" alt="">
-            <a href="">Concurso Agendado
-            para Bolsas de Estudo</a>
-            <p>De 26 e 29 de dezembro de 2016
-            Inscrições Abertas!</p>
+            <div>
+              <a href="">Concurso Agendado
+              para Bolsas de Estudo</a>
+              <p>De 26 e 29 de dezembro de 2016
+              Inscrições Abertas!</p>
+            </div>
           </div>
-        </div>
       </section>
 
-      <section>
+      <section class="aluno">
         <div>
-          <p class="titulo">Resoluções Comentadas</p>
+          <p>Resoluções Comentadas</p>
           <ul>
             <li><a href="">UNESP 2017 - 2ª fase</a></li>
             <li><a href="">UNIFESP 2017 - 2ª fase</a></li>
@@ -111,7 +125,7 @@
           </ul>
         </div>
         <div>
-          <p class="titulo">Central do Aluno</p>
+          <p>Central do Aluno</p>
             <form>
               <label for="matricula">Matrícula</label>
               <input type="text" name="" id="matricula">
