@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <script type="text/javascript" src="javascript/script.js"></script>
-    <meta name="viewport" content="width=500, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
   </head>
   <body>
 
@@ -17,11 +18,11 @@
             <button id="btn-menu">MENU</button>
             <div id="menu" class="menu">
               <div class="menu-pad">
-                  <div class="logo"><img src="images/logo-azul.png"></div>
+                  <div class="logo" id="logo"><img src="images/logo-azul.png"></div>
                 <ul>
-                  <li><a href="">Curso Objetivo</a></li>
+                  <li><a href="">Curso</a></li>
                   <li><a href="">Ensino</a></li>
-                  <li><a href="">Supor ao Ensino</a></li>
+                  <li><a href="">Suporte</a></li>
                   <li><a href="">Eventos</a></li>
                   <li><a href="">Concursos</a></li>
                   <li><a href="">Vestibular</a></li>
@@ -140,11 +141,15 @@
         <div>
           <p>Central do Aluno</p>
             <form method="post">
-              <label for="matricula">Matrícula</label>
-              <input type="text" name="" id="matricula">
-              <label for="senha">Senha</label>
-              <input type="password" name="" id="senha">
-              <button type="submit">Login</button>
+              <div>
+                <label for="matricula">Matrícula</label>
+                <input type="text" name="" id="matricula">
+              </div>
+              <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="" id="senha">
+              </div>
+                <button type="submit">Login</button>
           </form>
         </div>
 
